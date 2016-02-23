@@ -3,8 +3,8 @@
 ###RabbitMQ
 1. To work with the RabbitMQ used library php-amqplib/rabbitmq-bundle
 2. To add a task you should start provider
-    ./app/console app:provider  xml /your/directory/source-xml/
-    ./app/console app:provider  json /your/directory/source-json/
+    * `./app/console app:provider  xml /your/directory/source-xml/`
+    * `./app/console app:provider  json /your/directory/source-json/`
 3. To perform a task you should start a consumer:
     ./app/console rabbitmq:consumer  upload_tasks
 
