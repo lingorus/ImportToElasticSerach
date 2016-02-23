@@ -11,7 +11,7 @@ namespace AppBundle\Consumer;
 
 use OldSound\RabbitMqBundle\RabbitMq\ConsumerInterface;
 use PhpAmqpLib\Message\AMQPMessage;
-use AppBundle\ElasticSerach\ElasticSearch;
+use AppBundle\ElasticSearch\ElasticSearch;
 
 
 class TaskConsumer implements ConsumerInterface
@@ -27,7 +27,7 @@ class TaskConsumer implements ConsumerInterface
     public function execute(AMQPMessage $msg){
         $message = unserialize($msg->getBody());
         $body = $message['data'];
-        $hotel = json_decode($body);var_dump($hotel);
+        $hotel = json_decode($body);
         $res = false;
         if($message['id']){
             $params = [

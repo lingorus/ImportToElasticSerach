@@ -11,3 +11,10 @@
 ###ElasticSearch
 1. To work with ElasticSearch used library elasticsearch/elasticsearch
 2. There was created a service elasticsearch. It was injected into the upload_tasks_service(callback for a consumer).
+
+###Structure
+TaskConsumer:src/AppBundle/Consumer/TaskConsumer.php
+TaskProducer:src/AppBundle/Producer/TaskProducer.php
+ProviderCommand:src/AppBundle/Command/ProviderCommand.php
+ProviderCommand:src/AppBundle/Command/ProviderCommand.php
+ElasticSearch service:src/AppBundle/ElasticSearch/ElasticSearch.php

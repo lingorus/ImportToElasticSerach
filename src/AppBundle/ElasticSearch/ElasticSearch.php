@@ -6,7 +6,7 @@
  * Time: 18:25
  */
 
-namespace AppBundle\ElasticSerach;
+namespace AppBundle\ElasticSearch;
 
 
 class ElasticSearch
