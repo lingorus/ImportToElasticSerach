@@ -6,7 +6,7 @@
     * `./app/console app:provider  xml /your/directory/source-xml/`
     * `./app/console app:provider  json /your/directory/source-json/`
 3. To perform a task you should start a consumer:
-    ./app/console rabbitmq:consumer  upload_tasks
+    * `./app/console rabbitmq:consumer  upload_tasks`
 
 ###ElasticSearch
 1. To work with ElasticSearch used library elasticsearch/elasticsearch
