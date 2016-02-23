@@ -13,8 +13,8 @@
 2. There was created a service elasticsearch. It was injected into the upload_tasks_service(callback for a consumer).
 
 ###Structure
-TaskConsumer:`src/AppBundle/Consumer/TaskConsumer.php`
-TaskProducer:`src/AppBundle/Producer/TaskProducer.php`
-ProviderCommand:`src/AppBundle/Command/ProviderCommand.php`
-ProviderCommand:`src/AppBundle/Command/ProviderCommand.php`
-ElasticSearch service:`src/AppBundle/ElasticSearch/ElasticSearch.php`
+1. TaskConsumer:`src/AppBundle/Consumer/TaskConsumer.php`
+2. TaskProducer:`src/AppBundle/Producer/TaskProducer.php`
+3. ProviderCommand:`src/AppBundle/Command/ProviderCommand.php`
+4. ProviderCommand:`src/AppBundle/Command/ProviderCommand.php`
+5. ElasticSearch service:`src/AppBundle/ElasticSearch/ElasticSearch.php`
